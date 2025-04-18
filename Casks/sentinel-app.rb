@@ -1,5 +1,5 @@
 cask "sentinel-app" do
-  version "2.1"
+  version "2.2"
   sha256 :no_check
 
   # Version
@@ -9,7 +9,7 @@ cask "sentinel-app" do
   homepage "https://github.com/alienator88/Sentinel"
 
   auto_updates true
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :ventura"
 
   app "Sentinel.app"
 

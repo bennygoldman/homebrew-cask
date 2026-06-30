@@ -8,7 +8,7 @@ cask "viz" do
   desc "Utility to extract text from images, videos, qr/barcodes"
   homepage "https://github.com/alienator88/Viz"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Viz.app"
 

@@ -9,7 +9,7 @@ cask "sentinel-app" do
   homepage "https://github.com/alienator88/Sentinel"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Sentinel.app"
 
